@@ -1,0 +1,3 @@
+[    2366ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/favicon.ico:0
+[  105783ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://apps.apple.com/app/chessloops:0
+[  107000ms] [ERROR] Loading a manifest from 'https://apps.apple.com/manifest.json' violates the following Content Security Policy directive: "default-src 'none'". Note that 'manifest-src' was not explicitly set, so 'default-src' is used as a fallback. The action has been blocked. @ https://apps.apple.com/app/chessloops:0
