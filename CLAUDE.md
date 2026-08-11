@@ -26,7 +26,7 @@ python -m http.server 8765
 
 ## Key Details
 
-- App Store link placeholder: `https://apps.apple.com/app/chessloops` (update when live)
+- App Store link (live as of 2026-08-11): `https://apps.apple.com/us/app/chessloops/id6758915748` — appears in `index.html`'s nav, hero badge, hero CTA button, and bottom CTA section. This has broken once already (the original placeholder silently went dead) — verify it still resolves to the correct app before relying on it, see `TASKS.md`'s standing per-visit check
 - Contact email in legal pages: `support@chessloops.com`
 - CSS uses Google Fonts: Playfair Display (display) + DM Sans (body)
 - Scroll-reveal animations via IntersectionObserver in inline script on `index.html`
