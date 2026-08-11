@@ -195,6 +195,13 @@ body::before {
   text-transform: uppercase;
   opacity: 0;
   animation: fadeUp 0.8s var(--ease-out-expo) 0.2s forwards;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.hero-badge:hover {
+  color: var(--white);
+  border-color: var(--white-dim);
+  background: rgba(255,255,255,0.03);
 }
 
 .hero-badge-dot {
